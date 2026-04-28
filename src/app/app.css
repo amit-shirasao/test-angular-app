@@ -1,6 +1,12 @@
-:host{
-    display: block;
-    height: 100dvh;
+:host {
+  display: block;
+  height: 100dvh;
+}
+
+.header {
+  height: 20px;
+  width: 100%;
+  border: 1px solid gray
 }
 
 main {

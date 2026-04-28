@@ -1,3 +1,10 @@
+<div class="header">Cart Count: {{cart.length}}</div>
+
 <main class="main">
-  <div class="content">I love Swati</div>
+  <div class="content">
+    <app-product-component product="bat and ball" (addToCartEvent)="addToCart($event)"></app-product-component>
+    <app-product-component product="cat toy" (addToCartEvent)="addToCart($event)"></app-product-component>
+    <app-product-component product="comics" (addToCartEvent)="addToCart($event)"></app-product-component>
+    <app-product-component product="football" (addToCartEvent)="addToCart($event)"></app-product-component>
+  </div>
 </main>
